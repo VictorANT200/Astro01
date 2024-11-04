@@ -1,0 +1,26 @@
+
+---
+const name="victor"
+const random=Math.random()*4;
+---
+
+<h1>Esta es la ruta nosotros</h1>
+<h2>{name}</h2>
+<h2>{random}</h2>
+
+<h2 id="name"></h2>
+
+<style>
+    h1{
+        color: grey;
+    }
+</style>
+
+<script>
+    
+    const fill=document.getElementById("name");
+    if(fill){
+        fill.innerHTML="victor"
+    }
+</script>
+
